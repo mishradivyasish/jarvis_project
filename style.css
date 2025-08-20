@@ -1,0 +1,45 @@
+ body{
+    background: black;
+ }
+ *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /*position: fixed;*/
+    font-family: 'Times New Roman', Times, serif;
+ }
+ button{
+    color: black;
+    top: 50%;
+    left: 50%;
+ }
+ label{
+    color: rgb(163,0,0);
+    text-align: left;
+ }
+input{
+    color: black;
+    outline:none;
+    border: none;
+    border-bottom:3px solid white;
+    width: 65vw;
+    background-color:;
+ }
+ #sub_btn{
+    background-color: red;
+    color: white;
+    width: 80px;
+    padding: 10px 5px;
+    outline: none;
+    border: 2px solid rgb(238, 166, 166);
+    border-radius: 8px;
+ }
+ .machine{
+    background-color: #000;
+    height: 100vh;
+    width:100vw ;
+    user-select: none;
+ }
+ .machine*{
+    position:absolute;
+ }
